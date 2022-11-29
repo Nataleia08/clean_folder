@@ -10,5 +10,5 @@ setup(
     # license='MIT',
     packages=find_packages(include=["cleanfolder"]),
     entry_points={'console_scripts': [
-        'clean-folder = clean_folder.clean']},
+        'clean-folder = clean_folder.clean:main']},
 )
