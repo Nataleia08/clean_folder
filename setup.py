@@ -1,15 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='Module_7_dz',
+    name='clean_folder',
     version='1',
     description='Very useful code',
-    url='https://github.com/Nataleia08/Module_7_dz',
+    url='https://github.com/Nataleia08/clean_folder',
     author='Orlovska Nataliia',
     author_email='nataleia.orlovska@gmail.com',
-    license='MIT',
-    packages=find_packages(include=["Module7dz"]),
-    # install_requires=['markdown'],
+    # license='MIT',
+    packages=find_packages(include=["cleanfolder"]),
     entry_points={'console_scripts': [
-        'clean-folder = Module_7_dz.clean']},
+        'clean-folder = clean_folder.clean']},
 )
