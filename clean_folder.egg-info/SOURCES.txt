@@ -1,4 +1,5 @@
 README.md
+pyproject.toml
 setup.cfg
 setup.py
 clean_folder.egg-info/PKG-INFO

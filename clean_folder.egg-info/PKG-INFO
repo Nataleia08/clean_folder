@@ -5,3 +5,8 @@ Summary: Very useful code
 Home-page: https://github.com/Nataleia08/clean_folder
 Author: Orlovska Nataliia
 Author-email: nataleia.orlovska@gmail.com
+Classifier: Python version :: Python :: 3
+Classifier: Licence :: OSI :: MIT Licence
+Requires-Python: >=3.7
+
+A function that sorts files and folders.
