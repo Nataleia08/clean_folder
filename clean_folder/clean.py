@@ -214,6 +214,7 @@ def creating_folder(path: Path) -> list:
                  list_audio_path, list_docum_path, list_images_path]
     return [main_list_dir, list_path]
 
+
 def main():
     p = Path(input("Введіть шлях до папки:"))
     if p.is_dir():
@@ -225,4 +226,14 @@ def main():
     else:
         print("Це не шлях до папки!")
 
-main()
+
+# main()
+# p = Path(input("Введіть шлях до папки:"))
+# if p.is_dir():
+#     list_path = creating_folder(p)
+#     result = sorting(p, list_path)
+#     print("Сортування виконано успішно!")
+#     print("Список відомих розширень файлів у папці:", result[1])
+#     print("Список невідомих розширень у папці:", result[0])
+# else:
+#     print("Це не шлях до папки!")
